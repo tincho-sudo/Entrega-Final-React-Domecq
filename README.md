@@ -36,10 +36,6 @@ Las 3 dependencias base de fontawesome de donde se pueden conseguir diferentes i
 
 Para darle un estilo a los componentes que hasta Darth Vader quedaria impresionado.
 
-### "dotenv"
-
-Para almacenar los datos sensibles como la configuracion de la base de datos.
-
 ### "firebase"
 
 La base de datos elegida para este proyecto.
