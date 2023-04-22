@@ -4,11 +4,11 @@ Proyecto iniciado a modo evaluativo para CoderHouse, utiliza react junto con rea
 
 ## Inicializar el proyecto
 
-### 1 - git clone https://github.com/tincho-sudo/Entrega-Final-React-Domecq
+### git clone https://github.com/tincho-sudo/Entrega-Final-React-Domecq
 
 Clonar el repositorio.
 
-### 2 - `npm install`
+### `npm install`
 
 Instalar las dependencias necesarias con npm.
 
@@ -16,6 +16,10 @@ Instalar las dependencias necesarias con npm.
 
 Inicializa el proyecto localmente.
 
+
+### Deploy en Vercel
+
+https://entrega-final-react-domecq.vercel.app
 
 
 ## Dependencias
