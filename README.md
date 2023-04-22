@@ -3,7 +3,7 @@
 Proyecto iniciado a modo evaluativo para CoderHouse, utiliza react junto con react-boostrap para dar una buena experiencia de usuario.
 
 ## Inicializar el proyecto
-
+        <----->
 ### git clone https://github.com/tincho-sudo/Entrega-Final-React-Domecq
 
 Clonar el repositorio.
