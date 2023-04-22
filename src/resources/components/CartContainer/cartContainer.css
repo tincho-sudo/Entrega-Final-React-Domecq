@@ -1,0 +1,30 @@
+th,
+td,
+tbody {
+  text-align: center;
+  vertical-align: middle;
+  color: white !important;
+}
+
+Button {
+  padding: 10px 20px;
+  background-color: #af3924;
+  color: #fff;
+  font-size: 21px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+td img {
+  border-radius: 12px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.tableContainer {
+  margin: 60px 60px;
+}
