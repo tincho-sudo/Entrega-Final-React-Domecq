@@ -19,6 +19,7 @@ const CartContainer = () => {
   const totalPrice = getCartPrice();
 
   function handleAdd(itemCount, itemId) {
+    //Realmente la funcion getItemStock podria no existir y pasar directamente item.stock, pero podria ser necesaria en alguna parte y me parece una funcion basica
     if (itemCount < getItemStock(itemId)) modifyItemCount(itemId, 1);
   }
 
@@ -92,6 +93,8 @@ const CartContainer = () => {
                 <Button
                   onClick={() => handleSubstract(item.count, item.id)}
                   color="#4caf50"
+                  disabled={item.count === 1}
+                  display={item.count === 1 && "none"}
                 >
                   -
                 </Button>
@@ -99,6 +102,8 @@ const CartContainer = () => {
                 <Button
                   onClick={() => handleAdd(item.count, item.id)}
                   color="#4caf50"
+                  disabled={item.count === item.stock}
+                  display={item.count === item.stock && "none"}
                 >
                   +
                 </Button>
