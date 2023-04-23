@@ -29,9 +29,21 @@ export default function ItemCount(props) {
           >
             Stock: {props.stock}
           </p>
-          <Button onClick={handleSubstract}>-</Button>
+          <Button
+            onClick={handleSubstract}
+            disabled={count === 1}
+            display={count === 1 && "none"}
+          >
+            -
+          </Button>
           <span>{count}</span>
-          <Button onClick={handleaAdd}>+</Button>
+          <Button
+            onClick={handleaAdd}
+            disabled={count === props.stock}
+            display={count === props.stock && "none"}
+          >
+            +
+          </Button>
           <Button
             onClick={() => props.onAddToCart(count)}
             disabled={count === 0}
