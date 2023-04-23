@@ -1,9 +1,18 @@
 import styles from "./button.css";
 
-const Button = ({ color, opacity, onClick, disabled, text, children }) => {
+const Button = ({
+  color,
+  opacity,
+  onClick,
+  disabled,
+  text,
+  children,
+  display,
+}) => {
   const styleB = {
     backgroundColor: color,
     opacity: opacity,
+    display: display,
   };
   return (
     <button
